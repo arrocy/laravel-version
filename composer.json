@@ -1,5 +1,5 @@
 {
-    "name": "akaunting/laravel-version",
+    "name": "arrocy/laravel-version",
     "description": "Version management package for Laravel",
     "keywords": [
         "laravel",
@@ -8,9 +8,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Denis Duliçi",
-            "email": "info@akaunting.com",
-            "homepage": "https://akaunting.com",
+            "name": "Arrocy",
+            "email": "info@arrocy.com",
+            "homepage": "https://arrocy.com",
             "role": "Developer"
         }
     ],
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Akaunting\\Version\\": "./src"
+            "Arrocy\\Version\\": "./src"
         },
         "files": [
             "src/helpers.php"
@@ -29,10 +29,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Akaunting\\Version\\Provider"
+                "Arrocy\\Version\\Provider"
             ],
             "aliases": {
-                "Version": "Akaunting\\Version\\Facade"
+                "Version": "Arrocy\\Version\\Facade"
             }
         }
     }
